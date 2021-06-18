@@ -27,4 +27,9 @@ m[,]
 #reciclando los n elementos del vector
 (sum.vecmat <- c(1,2) + m)
 
+#creando una nueva matriz
+(n <- matrix(2:7, 4, 6))
 
+#utilizando el metodo dim(parametro)
+#que nos dice las dimenciones de una matriz
+dim(n)
