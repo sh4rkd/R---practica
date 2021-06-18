@@ -72,5 +72,12 @@ rep(b,3)
 #sumando los elementos del primer vector.
 c(1,2) + c(7,8,9,10)
 
-
+#operaciones entre vectores en R
+a + b
+a - b
+a*b
+a/b
+a^2
+a1 <- a*0.5 + b^2
+a1[1]
 
