@@ -61,3 +61,7 @@ sort(c(a,b))
 #otra forma de usar el seq
 (vector.by3 <- seq(1, 10, 3))
 
+#rep(querepetir,cuantasveces)
+rep(5,times = 6)
+rep(a,2)
+rep(b,3)
