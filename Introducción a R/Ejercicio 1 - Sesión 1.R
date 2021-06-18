@@ -57,3 +57,7 @@ sort(c(a,b))
 #de 2 en 2 desde 1 hasta 10
 (vector.by2 <- seq(from = 1, to = 10, by = 2))
 
+#seq(desde,hasta,incrementa)
+#otra forma de usar el seq
+(vector.by3 <- seq(1, 10, 3))
+
