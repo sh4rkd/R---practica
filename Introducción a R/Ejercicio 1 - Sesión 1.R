@@ -51,3 +51,9 @@ sort(c(a,b))
 #si n es menor incrementa de 1 en 1 hasta m
 2:8
 
+#seq(desde,hasta,incrementando)
+#se crea una variable que almacena el resultado
+#de la funcion seq que es un ciclo incrementando
+#de 2 en 2 desde 1 hasta 10
+(vector.by2 <- seq(from = 1, to = 10, by = 2))
+
