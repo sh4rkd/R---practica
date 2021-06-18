@@ -9,3 +9,12 @@
 #igual si recibe un numero retornara el tipo de dato
 #y el valor del elemento 
 str(milista)
+
+#letters[indice]
+#retorna la letra que este en la posición
+#que reciba como parametro
+#si es un vector retornara todas las letras
+#de todas las posiciones del vector
+x <- 10:21
+(y <- letters[x])
+
