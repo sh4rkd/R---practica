@@ -42,4 +42,6 @@ b[4]
 #n elementos, tambien se pueden combinar vectores
 c(a,b)
 
-
+#sort(parametro_ordenar) ordena ascendentemente
+#sort(parametro,decreasing = T) ordena descendentemente
+sort(c(a,b))
