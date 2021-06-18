@@ -38,4 +38,8 @@ a[1]
 b[4]
 #Nota: no empieza en 0 aqui empieza en 1
 
+#c(parametro1,parametro...,parametron) hace un vector de 
+#n elementos, tambien se pueden combinar vectores
+c(a,b)
+
 
