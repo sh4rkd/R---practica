@@ -31,3 +31,11 @@ b <- c(3, 5, 7, 9)
 #longitud de un vector
 length(a)
 length(b)
+
+#accediendo a los elementos de los vectores
+#mediante posiciones
+a[1]
+b[4]
+#Nota: no empieza en 0 aqui empieza en 1
+
+
