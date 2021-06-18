@@ -37,3 +37,7 @@ dim(n)
 #n[condicion] retorna todos los elementos
 #que cumplan esa condición
 n[n>4]
+
+#which(condicion) retorna todas las posiciones
+#de los elementos que cumplan esa condición
+which(n>4)
