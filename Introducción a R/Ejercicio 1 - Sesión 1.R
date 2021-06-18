@@ -24,3 +24,10 @@ typeof(vector)
 #y en typeof retorna double
 
 
+a <- c(4, 6, 8, 10, 12)
+b <- c(3, 5, 7, 9)
+
+#length(parametro) <- metodo que retorna la
+#longitud de un vector
+length(a)
+length(b)
