@@ -45,3 +45,9 @@ c(a,b)
 #sort(parametro_ordenar) ordena ascendentemente
 #sort(parametro,decreasing = T) ordena descendentemente
 sort(c(a,b))
+
+#n:m genera un numero de n hasta m
+#si n es mayor decrementa de 1 en 1 hasta m
+#si n es menor incrementa de 1 en 1 hasta m
+2:8
+
