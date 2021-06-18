@@ -41,3 +41,27 @@ n[n>4]
 #which(condicion) retorna todas las posiciones
 #de los elementos que cumplan esa condición
 which(n>4)
+
+# Algunas operaciones básicas de matrices
+
+# Producto matricial: A %*% B
+# Producto elemento a elemento: A*B
+# Traspuesta: t(A)
+# Determinante: det(A)
+# Extraer la diagonal: diag(A)
+# Resolver un sistema de ecuaciones lineales (( Ax=b )): solve(A,b)
+# Inversa: solve(A)
+# Autovalores y autovectores: eigen(A)
+n %*% m
+m*n
+
+t(n)
+
+det(m)
+
+diag()
+
+solve(m)
+
+eigen(m)
+
