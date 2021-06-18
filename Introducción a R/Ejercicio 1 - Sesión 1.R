@@ -65,3 +65,12 @@ sort(c(a,b))
 rep(5,times = 6)
 rep(a,2)
 rep(b,3)
+
+#reciclaje, R sumara los n elementos del primer vector
+#por los n elementos del segundo vector hasta
+#alganzar la longitud del segundo vector continuara
+#sumando los elementos del primer vector.
+c(1,2) + c(7,8,9,10)
+
+
+
