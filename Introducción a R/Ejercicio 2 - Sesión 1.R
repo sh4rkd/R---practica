@@ -21,3 +21,10 @@ m[1,]
 #muestra toda la matriz debido a que ni la fila
 #ni la columna intercepta los elementos
 m[,]
+
+#si se realiza la suma de un vector con una matriz
+#realizara la suma columna por columna 
+#reciclando los n elementos del vector
+(sum.vecmat <- c(1,2) + m)
+
+
