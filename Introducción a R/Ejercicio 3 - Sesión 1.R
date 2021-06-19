@@ -38,3 +38,8 @@ mydf$edad
 #en el parametro
 mean(mydf$edad)
 
+#paste(param1,param...,paramn)
+#retorna una cadena con todos los parametros concatenados
+paste("La media de la edad es:", mean(mydf$edad))
+
+
