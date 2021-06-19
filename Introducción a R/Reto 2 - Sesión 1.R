@@ -13,3 +13,6 @@
 #names(dataframe) <- vector de nuevos nombres)
 colnames(tAmazon) <- tAmazon[1,]
 
+#colnames(df) <- loquequieras
+#renombra el nombre de las columnas
+#respetando la longitud de las columnas
