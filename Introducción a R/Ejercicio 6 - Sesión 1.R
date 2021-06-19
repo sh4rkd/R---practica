@@ -15,3 +15,11 @@ print("Este loop calcula el cuadrado de los elementos del vector w")
 for(i in 1:length(w)){
   print(paste("El cuadrado de: ",w[i]," es ",w[i]**2))
 }
+
+#while(condicion){}
+count <- 0
+while(count < 10) {
+  print(count)
+  count <- count + 1
+}
+
