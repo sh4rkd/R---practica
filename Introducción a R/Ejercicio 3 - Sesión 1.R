@@ -33,3 +33,8 @@ mydf[,1]
 #accede a los elementos de la columna edad
 mydf$edad
 
+#mean(param)
+#retorna el promedio de los elementos ingresados
+#en el parametro
+mean(mydf$edad)
+
