@@ -42,4 +42,10 @@ mean(mydf$edad)
 #retorna una cadena con todos los parametros concatenados
 paste("La media de la edad es:", mean(mydf$edad))
 
-
+#summary(param)
+#retorna dependiendo del tipo de dato una serie
+#de agrupaciones con sus respectivos resultados
+#por ejemplo si se introduce solo un caracter
+#te retornara el numero de caracteres la longitud
+#etc...
+summary(mydf)
