@@ -23,3 +23,16 @@ while(count < 10) {
   count <- count + 1
 }
 
+#if(condicion){}else if(condicion){}else{}
+#runif(1,0,10)
+#genera numero del 1 al 10 al azar
+(x <- runif(1, 0, 10)) ## creamos un número aleatorio entre 0 y 10
+
+if(x > 5) {
+  y <- TRUE
+  print(paste(y, ", x=", round(x,2) ,"> 5"))
+} else {
+  y <- FALSE
+  print(paste(y, ", x=", round(x,2) ," < 5"))
+}
+
