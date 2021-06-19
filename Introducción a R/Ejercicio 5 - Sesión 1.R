@@ -16,3 +16,8 @@ library(dplyr)
 #retorna la version que es R asi como otros tipos
 #de datos
 version
+
+#para actualizar R realiza lo siguiente:
+#install.packages("installr", dependencies = TRUE)
+#library(installr)
+#updateR()
