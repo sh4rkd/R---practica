@@ -7,3 +7,7 @@ install.packages("ggplot2")
 #carga el paquete de la libreria
 #que recibe como parametro
 library(ggplot2)
+
+#cuando te salga un mensaje dale a NO >:C
+install.packages("dplyr")
+library(dplyr)
