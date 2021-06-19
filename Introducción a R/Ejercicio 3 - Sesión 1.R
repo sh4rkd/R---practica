@@ -18,3 +18,8 @@ str(milista)
 x <- 10:21
 (y <- letters[x])
 
+#data.frame(param,param...,paramn)
+#crea un dataframe de los parametros que le envies
+(mydf <- data.frame(edad=x, grupo=y))
+
+
