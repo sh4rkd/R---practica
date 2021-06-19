@@ -18,3 +18,11 @@ for(i in 1:15){
 #aleatorio y la segunda el resultado, nómbralo df.al.
 df.al <- data.frame(numero_aleatorio=vector,cubo_aleatorio=cubo)
 
+#4. Escribe el pseudocódigo del loop anterior.
+#Algoritmo loop
+# Dimension vector[44];
+# Dimension cubo[44] = vector;
+#   Para i<-1 Hasta 15 Hacer
+#     cubo[en_la_posicion_i] = ((vector[en_la_posicion_i])elevado_al_cubo)+12;
+#   FinPara
+#FinAlgoritmo
