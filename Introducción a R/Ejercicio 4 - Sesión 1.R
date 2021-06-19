@@ -13,3 +13,14 @@ setwd("C:/Users/lilol/Desktop/Bedu/Data Science/Fase 2 - GitHub/Introducción a 
 #recibe como parametro
 read.csv("bestsellers with categories.csv")
 amazon.books <- read.csv("bestsellers with categories.csv")
+
+str(amazon.books)
+
+#head(param)
+#retorna las primeras filas y columnas del dataframe
+head(amazon.books)
+
+#tail(param)
+#retorna las ultimas filas y columnas del dataframe
+tail(amazon.books)
+
