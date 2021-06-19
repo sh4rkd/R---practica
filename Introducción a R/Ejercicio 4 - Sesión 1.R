@@ -24,3 +24,13 @@ head(amazon.books)
 #retorna las ultimas filas y columnas del dataframe
 tail(amazon.books)
 
+dim(amazon.books)
+
+class(amazon.books)
+
+#read.csv(param)
+#tambien puede leer desde un url
+data.url <- read.csv("https://raw.githubusercontent.com/beduExpert/Programacion-con-R-Santander/master/Sesion-01/Data/bestsellers%20with%20categories.csv")
+str(data.url)
+head(data.url)
+tail(data.url) 
