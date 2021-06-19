@@ -49,3 +49,8 @@ paste("La media de la edad es:", mean(mydf$edad))
 #te retornara el numero de caracteres la longitud
 #etc...
 summary(mydf)
+
+#asi se puede agregar una nueva columna en el dataframe
+#dataframe$nuevacolumna <- vectorconvalores 
+(mydf$sexo <- c("H", "M", "H", "M", "H", "H", "M", "H","H","M", "M", "H"))
+
