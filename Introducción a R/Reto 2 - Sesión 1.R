@@ -16,3 +16,12 @@ colnames(tAmazon) <- tAmazon[1,]
 #colnames(df) <- loquequieras
 #renombra el nombre de las columnas
 #respetando la longitud de las columnas
+
+#4. ¿Cuál es el libro de menor y mayor precio?
+
+which.min(tAmazon[5,])
+which.max(tAmazon["Price",])
+
+#which.max|.min(df[param1,param2]) retorna el 
+#resultado ya sea el menor o el mayor
+#del parametro que se le introduzca
