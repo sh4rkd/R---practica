@@ -54,3 +54,6 @@ summary(mydf)
 #dataframe$nuevacolumna <- vectorconvalores 
 (mydf$sexo <- c("H", "M", "H", "M", "H", "H", "M", "H","H","M", "M", "H"))
 
+#asi se puede eliminar una columna
+#dataframe$columnaaeliminar <- NULL
+(mydf$sexo <- NULL)
