@@ -11,3 +11,8 @@ library(ggplot2)
 #cuando te salga un mensaje dale a NO >:C
 install.packages("dplyr")
 library(dplyr)
+
+#version 
+#retorna la version que es R asi como otros tipos
+#de datos
+version
