@@ -7,4 +7,9 @@
 #las funciones t y as.data.frame)
 (tAmazon <- t(as.data.frame(amazon.best)))
 
+#3. Usa el nombre de los libros como el nombre 
+#de las columnas (Hint: consulta la documentación
+#de names, tienes que hacer algo similar a 
+#names(dataframe) <- vector de nuevos nombres)
+colnames(tAmazon) <- tAmazon[1,]
 
