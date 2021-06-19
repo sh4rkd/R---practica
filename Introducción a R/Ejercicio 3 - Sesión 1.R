@@ -22,4 +22,14 @@ x <- 10:21
 #crea un dataframe de los parametros que le envies
 (mydf <- data.frame(edad=x, grupo=y))
 
+#mydf[posicion]
+#muestra todos los elementos de la columna 1
+mydf[1]
+
+#muestra todos los elementos de la columna 1
+#en forma de vector
+mydf[,1]
+
+#accede a los elementos de la columna edad
+mydf$edad
 
