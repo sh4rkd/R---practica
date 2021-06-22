@@ -21,5 +21,6 @@ quantile(x, 0.25) # cuantil del 25%
 quantile(x, c(0.25,0.50,0.75)) # Cuartiles
 quantile(x, seq(0.1,0.9, by = 0.1)) # Deciles
 
-
-
+#IQR(param)
+#retorna el rango intercuartilico del parametro
+IQR(x)
