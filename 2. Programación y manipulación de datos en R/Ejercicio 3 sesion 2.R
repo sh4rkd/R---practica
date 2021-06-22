@@ -12,4 +12,5 @@ bien <- complete.cases(airquality)
 #retornara la suma de todos los elementos TRUE
 sum(bien)
 
-
+#filtranto los NA's con complete.cases
+airquality[bien,]
