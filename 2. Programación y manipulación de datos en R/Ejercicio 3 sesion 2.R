@@ -8,3 +8,8 @@ dim(airquality)
 #y los que que tengan datos en verdaderos
 bien <- complete.cases(airquality)
 
+#sum(vector_booleano)
+#retornara la suma de todos los elementos TRUE
+sum(bien)
+
+
