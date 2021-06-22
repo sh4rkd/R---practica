@@ -32,3 +32,7 @@ quantile(x, probs = 0.75) - quantile(x, probs = 0.25)
 #var(param)
 #retorna la varianza
 var(x)
+
+#sd(param)
+#retorna la desviacion estandar
+sd(x)
