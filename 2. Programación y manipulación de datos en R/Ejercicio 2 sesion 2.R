@@ -17,3 +17,7 @@ moda <- function(vector){
   paste("Con una frecuencia de: ", unique(f.abs[pos.max]))
 }
 
+#poniendo a prueba el metodo creado
+x <- sample(1:100, 100, replace = T)
+table(x)
+moda(x)
