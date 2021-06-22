@@ -20,3 +20,8 @@ data <- select(airquality, Ozone:Temp)
 apply(data, 2, mean)
 apply(data, 2, mean, na.rm = T)
 
+#filtrando los NA's con na.omit
+(m1 <- apply(na.omit(data), 2, mean))
+b <- complete.cases(data)
+(m2 <- apply(data[b,], 2, mean))
+identical(m1, m2)
