@@ -14,3 +14,9 @@ sum(bien)
 
 #filtranto los NA's con complete.cases
 airquality[bien,]
+
+#filtrando los NA's con na.rm
+data <- select(airquality, Ozone:Temp)
+apply(data, 2, mean)
+apply(data, 2, mean, na.rm = T)
+
