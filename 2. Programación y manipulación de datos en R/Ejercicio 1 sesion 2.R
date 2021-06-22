@@ -24,3 +24,9 @@ quantile(x, seq(0.1,0.9, by = 0.1)) # Deciles
 #IQR(param)
 #retorna el rango intercuartilico del parametro
 IQR(x)
+
+#la manera de obtener el IQR mediante
+#la diferencia de cuartiles
+quantile(x, probs = 0.75) - quantile(x, probs = 0.25)
+
+
