@@ -10,3 +10,10 @@ Mode(x) #moda
 
 #2. Obtenga los deciles de los números en x
 quantile(x,seq(0.1,0.9,by = 0.1)) #Deciles
+
+#3. Encuentre la rango intercuartílico, la 
+#desviación estándar y varianza muestral de 
+#las mediciones en x
+IQR(x) #Rango intercuartilico
+sd(x) #desviacion estandar
+var(x) #varianza
