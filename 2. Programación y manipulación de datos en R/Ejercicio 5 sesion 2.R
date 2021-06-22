@@ -33,4 +33,9 @@ lista <- lapply(dir(), read.csv)
 
 lista <- lapply(lista, select, Date:FTR)
 
-head(lista[[1]]); head(lista[[2]]); head(lista[[3]]); head(lista[[4]])
+head(lista[[1]]); head(lista[[2]]); head(lista[[3]]);head(lista[[4]])
+
+#combinando las listas a un dataframe
+data <- do.call(rbind, lista)
+head(data)
+dim(data)
