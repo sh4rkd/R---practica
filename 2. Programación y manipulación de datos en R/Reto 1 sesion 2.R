@@ -8,3 +8,5 @@ mean(x) #media
 median(x) #mediana
 Mode(x) #moda
 
+#2. Obtenga los deciles de los números en x
+quantile(x,seq(0.1,0.9,by = 0.1)) #Deciles
